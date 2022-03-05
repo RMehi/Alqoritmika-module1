@@ -1,0 +1,77 @@
+.course-program-cards-flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.course-program-header{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+
+.course-program-cards{
+    width: 399px;
+    height: 328px;  
+    margin-right: 37px ;
+    margin-bottom:45px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.course-customers{
+    background: #EFEFEF;
+}
+
+.course-customer-card{
+    width: 791px;
+    height: 451px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+
+}
+
+.course-customer-header{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 56px;
+}
+.course-customer-card-p{
+    width: 700px;
+}
+
+.course-customer-card-img-name{
+    display: flex;
+    align-items: center;
+}
+
+.course-customer-card-name{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.customer-social-icon{
+    width: 32px;
+    height: 31px;
+}
+
+.course-price{
+    background: #9DC9C8;
+}
+
+.course-start-date h1{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 56px;
+}
