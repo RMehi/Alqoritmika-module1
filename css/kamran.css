@@ -122,14 +122,14 @@
 }
 
 
-/*-----------------------------*/
+/*--------------------------------------------*/
 
 .about .about-header-div{
     margin-top: 174.36px;
     width: 365px;
     height: 93px;
 }
-.about-header-div h2{
+.about-header-div h1{
     font-family: 'Roboto Slab', serif;
     font-style: normal;
     font-weight: bold;
@@ -143,6 +143,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     width: 82.777vw;    /*1192px*/
 }
 .about-content-p{
@@ -160,4 +161,53 @@
 .about-content-img img{
     width: 366px;
     height: 344px;
+}
+
+.about-details-div{
+    margin-top: 71px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 69.583vw;      /*1002*/
+}
+.about-details-img img{
+    width: 232px;
+    height: 219px;
+}
+.about-details-content{
+    margin-top: 72px;
+    width: 63.672%;   /*638*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about-details-content div{
+    width: 150px;
+}
+.about-details-content p:first-child{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 32px;
+}
+.about-details-content p:last-child{
+    margin-top: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+
+/*----------------------------------------*/
+
+
+.format-header-div h1{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 56px;
 }
