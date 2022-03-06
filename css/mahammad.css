@@ -1,0 +1,264 @@
+.course-program-cards-flexbox{
+    display: flex;
+    flex-wrap:wrap;
+    margin-bottom:80px;
+    margin-left: 84px;
+    margin-right: 47px;
+}
+
+.course-program-header{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-bottom: 95px;
+}
+
+.course-program-cards{
+    width: 399px;
+    height: 328px;  
+    margin-right: 37px;
+    margin-bottom:41px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.course-customers{
+    background-color: #EFEFEF;
+    padding-bottom: 111px;
+}
+
+.course-customer-card{
+    width: 791px;
+    height: 451px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-top: 60px;
+}
+
+.card-image{
+    height: 160px;
+    width: 399px;
+}
+
+.course-program-cards h3{
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;   
+    margin-left:20px; 
+    margin-top: 11px;
+}
+
+.course-program-cards p{
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;  
+    margin-left:20px; 
+    margin-top:32px; 
+}
+
+.cards-text-8 p{
+    margin-left:20px; 
+    margin-top: 0;
+}
+
+.course-customer-header{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 56px;
+}
+
+.course-customer-header p{
+    padding-top:91px;
+}
+
+.course-customer-card-p{
+    width: 695px;
+    padding-top:40px;
+    padding-left:45px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+.course-customer-card-img-name{
+    margin-top:30px;
+    display: flex;
+    align-items: center;
+}
+
+.course-customer-img{
+    margin-left:26px;
+    margin-right: 30px;
+}
+
+.course-customer-card-name{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom:23px;
+}
+
+.customer-social-icon{
+    width: 32px;
+    height: 31px;
+}
+
+.course-price{
+    background: #9DC9C8;
+}
+
+.course-start-date h1{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 56px;
+    padding-top: 179px;
+}
+
+.course-price-rubl{
+    margin-top: 54px;
+}
+
+.course-price-rubl-p1{
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+.course-price-rubl-p2{
+    font-family: Roboto;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 81px;
+    letter-spacing: 0em;
+    text-align: left;  
+    margin-bottom: 70px;  
+}
+
+.course-price-extra{
+    display: flex;
+}
+
+.course-price-extra-p1{
+    margin-right: 70px;
+    width: 294px;
+}
+
+.course-price-extra-p2{
+    width: 294px;
+}
+
+.course-price-extra-header{
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 9px;
+}
+
+.course-price-extra-p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 200px;
+}
+
+footer{
+    background: #000000;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: space-between;
+    padding-top:50px;
+    margin-bottom: 28px;
+}
+
+.footer-logo-img{
+    width: 115px;
+    height: 68px;
+}
+
+.footer-contact-info{
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color:white;
+}
+
+.footer-phone-img{
+    margin-right: 22px;
+}
+
+.footer-mail-img{
+    margin-right: 22px;
+}
+
+.footer-number{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.footer-email{
+    display: flex;
+    align-items: center;
+}
+
+.footer-social-icon{
+    display: flex;
+}
+
+.footer-social-icon-margins{
+    margin-right:18px;
+    margin-bottom: 146px;
+}
+
+.copyright{
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;   
+    color: white;
+    padding-bottom: 44px;
+}
