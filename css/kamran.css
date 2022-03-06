@@ -1,0 +1,163 @@
+.header-logo{
+    margin-top: 21px;
+}
+.header-logo img {
+    width: 112px;
+    height: 66px;
+}
+
+
+.header-content-section{
+    margin-left: 37px;
+}
+.header-img{
+    width: 305px;
+    height: 376px;
+    margin-top: 3px;
+}
+
+
+.header-p-extra{
+    width: 35.347vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 92px;
+}
+.header-p-extra div{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.header-p-extra .globe p{
+    margin-top: 4px;
+    margin-left: 8px;
+}
+.header-p-extra .hour p{
+    margin-top: 4px;
+    margin-left: 10px;
+    width: 129px;   /*p and icon intersect 1 pixel in figma*/
+}
+.header-p-extra .month p{
+    margin-top: 4px;
+    margin-left: 13px;
+}
+.header-p-extra p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    width: 130px;
+    height: 32px;
+}
+.header-p-extra .globe img{
+    width: 22px;
+    height: 21px;
+    margin-top: 1px;
+}
+.header-p-extra .hour img{
+    width: 22px;
+    height: 22px;
+    margin-left: 25px;
+}
+.header-p-extra .month img{
+    width: 20px;
+    height: 22px;
+}
+
+
+.header-p h1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 81.11px;
+    margin-top: 29px;
+}
+.header-p p{
+    font-family: 'Roboto ', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 53.976%;
+    margin-left: 1px;
+    margin-top: 15px; /*?*/
+}
+
+
+.header-author-flex{
+    display: flex;
+    justify-content: end;
+    margin-top: 67.62px;
+}
+.header-author-content{
+    background-color: #1E4681;
+    border-radius: 5px;
+    color: white;
+    box-sizing: border-box;
+    padding-left: 26.03px;
+    padding-right: 18.52px;
+    padding-top: 19.26px;
+    padding-bottom: 18.62px;
+    width: 62.644%;
+}
+.author-words{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32.5px;
+    margin-bottom: 5px;
+    margin-right: 8.5px;
+}
+.author-name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: end;
+}
+
+
+.header-content-div{
+    display: grid;
+    grid-template-columns: 53.6vw auto;
+    grid-template-rows: auto auto;
+}
+
+
+/*-----------------------------*/
+
+.about .about-header-div{
+    margin-top: 174.36px;
+    width: 365px;
+    height: 93px;
+}
+.about-header-div h2{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 55.76px;
+}
+
+
+.about-content-div{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 82.777vw;    /*1192px*/
+}
+.about-content-p{
+    width: 55.536%;
+}
+.about-content-p p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+.about-content-p p:last-child{
+    margin-top: 36px;
+}
+.about-content-img img{
+    width: 366px;
+    height: 344px;
+}
