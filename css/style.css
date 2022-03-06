@@ -3,3 +3,12 @@
 
 @import url(mahammad.css);
 @import url(kamran.css);
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.margins{
+    margin-right: 121px;
+    margin-left: 121px;
+}
