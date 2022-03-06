@@ -1,4 +1,8 @@
+.course-program{
+    margin-top: 225px;
+}
 .course-program-cards-flexbox{
+    margin-top: 135px;
     display: flex;
     flex-wrap:wrap;
     margin-bottom:80px;
