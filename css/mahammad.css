@@ -1,11 +1,11 @@
 .course-program{
-    margin-top: 225px;
+    margin-top: 228px;
 }
 .course-program-cards-flexbox{
-    margin-top: 135px;
+    margin-top: 133px;
     display: flex;
     flex-wrap:wrap;
-    margin-bottom:80px;
+    margin-bottom:84px;
     margin-left: 84px;
     margin-right: 47px;
 }
@@ -40,7 +40,8 @@
     background-color: #FFFFFF;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    margin-top: 60px;
+    margin-top: 71px;
+    margin-left: 125px;
 }
 
 .card-image{
@@ -68,13 +69,22 @@
     line-height: 32px;
     letter-spacing: 0em;
     text-align: left;  
-    margin-left:20px; 
+    margin-left:19px; 
     margin-top:32px; 
 }
 
+.cards-text-7 h3{
+    margin-top: 15px;
+}
+
+.cards-text-8 h3{
+    margin-top: 20px;
+    line-height: 30px;
+}
+
 .cards-text-8 p{
-    margin-left:20px; 
-    margin-top: 0;
+    margin-left:19px; 
+    margin-top: 6px;
 }
 
 .course-customer-header{
@@ -103,7 +113,7 @@
 }
 
 .course-customer-card-img-name{
-    margin-top:30px;
+    margin-top:33px;
     display: flex;
     align-items: center;
 }
@@ -141,7 +151,7 @@
 }
 
 .course-price-rubl{
-    margin-top: 54px;
+    margin-top: 64px;
 }
 
 .course-price-rubl-p1{
@@ -151,7 +161,8 @@
     font-weight: 400;
     line-height: 25px;
     letter-spacing: 0em;
-    text-align: left;    
+    text-align: left;   
+    margin-bottom: 5px; 
 }
 
 .course-price-rubl-p2{
@@ -162,7 +173,7 @@
     line-height: 81px;
     letter-spacing: 0em;
     text-align: left;  
-    margin-bottom: 70px;  
+    margin-bottom: 74px;  
 }
 
 .course-price-extra{
@@ -186,7 +197,7 @@
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
-    margin-bottom: 9px;
+    margin-bottom: 16px;
 }
 
 .course-price-extra-p{
@@ -197,7 +208,7 @@
     line-height: 18px;
     letter-spacing: 0em;
     text-align: left;
-    margin-bottom: 200px;
+    margin-bottom: 201px;
 }
 
 footer{
@@ -208,7 +219,7 @@ footer{
     display: flex;
     justify-content: space-between;
     padding-top:50px;
-    margin-bottom: 28px;
+    margin-bottom: 21px;
 }
 
 .footer-logo-img{
@@ -225,6 +236,8 @@ footer{
     letter-spacing: 0em;
     text-align: left;    
     color:white;
+    margin-top: 8px;
+    margin-right: 57px;
 }
 
 .footer-phone-img{
@@ -238,7 +251,7 @@ footer{
 .footer-number{
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
 }
 
 .footer-email{
@@ -252,7 +265,15 @@ footer{
 
 .footer-social-icon-margins{
     margin-right:18px;
-    margin-bottom: 146px;
+    margin-bottom: 141px;
+}
+
+.facebook-footer{
+    margin-right: 22px;
+}
+
+.vk-footer{
+    margin-right: 24px;
 }
 
 .copyright{
@@ -262,7 +283,7 @@ footer{
     font-weight: 400;
     line-height: 18px;
     letter-spacing: 0em;
-    text-align: left;   
+    text-align: left;    
     color: white;
     padding-bottom: 44px;
 }
