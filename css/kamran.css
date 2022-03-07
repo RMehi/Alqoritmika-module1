@@ -83,7 +83,6 @@
     margin-top: 15px;
 }
 
-/*(((((((((((((((((((((((((((((((((((((((*/
 
 .header-author-flex{
     display: flex;
@@ -107,7 +106,7 @@
     font-size: 25px;
     line-height: 32.5px;
     margin-bottom: 5px;
-    margin-right: 8.5px;
+    width: 98.064%;
 }
 .author-name{
     font-family: Roboto;
@@ -126,6 +125,10 @@
 
 /*--------------------------------------------*/
 
+
+.about{
+    margin-left: 121px;
+}
 .about .about-header-div{
     margin-top: 174.36px;
     width: 365px;
@@ -207,10 +210,11 @@
 
 
 .format{
-    margin-top: 160px;
+    margin-top: 158px;
+    margin-left: 121px;
 }
 .format-header-div h1{
-    font-family: 'Roboto Slab', serif;
+    font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
@@ -260,7 +264,8 @@
 
 
 .questions{
-    margin-top: 216px;
+    margin-left: 121px;
+    margin-top: 218px;
 }
 .questions-header h1{
     font-family: Roboto Slab;
@@ -310,9 +315,9 @@
         margin-left: 70.08px;
     }
     .header-img img{
-        width: 176.07px;
-        height: 206.18px;
-        margin-top: 3px;      /********************************************/
+        width: 176.65px;
+        height: 217.77px;
+        margin-top: 1px;      /********************************************/
     }
 
 
@@ -361,7 +366,7 @@
         font-weight: 700;
         font-size: 46px;
         line-height: 46.64px;
-        margin-top: 7.32px;
+        margin-top: 6.32px;
     }
     .header-p p{
         font-family: Roboto;
@@ -370,9 +375,178 @@
         line-height: 18px;
         width: 57.043%;
         margin-left: 1px;
-        margin-top: 18px;
+        margin-top: 20px;
         font-style: normal;
         letter-spacing: 0em;
         text-align: left;
     }
+
+    .header-content-div{
+        grid-template-columns: 53.401vw auto;
+        grid-template-rows: auto auto;
+    }
+
+
+    .header-author-flex{
+        display: flex;
+        justify-content: end;
+        margin-top: 36.17px;
+    }
+    .header-author-content{
+        padding-left: 15.08px;
+        padding-right: 9.21px;
+        padding-top: 11.15px;
+        padding-bottom: 13.54px;
+        width: 62.644%;
+    }
+    .author-words{
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        margin-bottom: 2px;
+        width: 95.246%;
+    }
+    .author-name{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    
+    
+    .header-content-div{
+        display: grid;
+        grid-template-columns: 53.6vw auto;
+        grid-template-rows: auto auto;
+    }
+
+
+    /*--------------------------------------------*/
+
+
+    .about{
+        margin-left: 70.08px;
+    }
+    .about .about-header-div{
+        margin-top: 101.41px;
+        width: 211.4px;
+        height: 53.86px;
+    }
+    .about-header-div h1{
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 32.44px;
+    }
+    
+    
+    .about-content-div{
+        margin-top: 10.42px;
+        width: 82.778vw;    /*690.37px*/
+    }
+    .about-content-p{
+        width: 55.536%;
+    }
+    .about-content-p p{
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .about-content-p p:last-child{
+        margin-top: 20px;
+    }
+    .about-content-img img{
+        width: 211.98px;
+        height: 199.23px;
+    }
+    
+    .about-details-div{
+        margin-top: 40.51px;
+    }
+    .about-details-img img{
+        width: 134.37px;
+        height: 126.84px;
+    }
+    .about-details-content{
+        margin-top: 41.54px;
+    }
+    .about-details-content div{
+        width: 86.88px;
+    }
+    .about-details-content div:nth-child(2){
+        width: 96px;
+        padding-left: 9px;
+    }
+    .about-details-content h2{
+        font-size: 15px;
+        line-height: 19.5px;
+    }
+    .about-details-content p{
+        margin-top: 4px;
+        font-size: 11px;
+        line-height: 14.3px;
+    }
+    
+    
+    /*----------------------------------------*/
+
+
+    .format{
+        margin-top: 89.83px;
+        margin-left: 70.08px;
+    }
+    .format-header-div h1{
+        font-size: 32px;
+        line-height: 32.44px;
+    }
+    .format-content{
+        margin-top: 74px;
+        width: 67.598vw;    /*563.7*/
+    }
+    .format-content div:first-child{
+        width: 25.2%;     /*146*/
+    }
+    .format-content div:nth-child(2){
+        width: 30.512%;    /*172*/
+        padding-left: 10px;
+    }
+    .format-content div:last-child{
+        width: 25.172%;    /*141.9*/
+    }
+    .format-content h2{
+        font-size: 15px;
+        line-height: 19.5px;
+    }
+    .format-content p{
+        font-size: 11px;
+        line-height: 14.3px;
+    
+        margin-top: 4px;
+    }
+
+
+    /*-------------------------------------------*/
+
+
+    .questions{
+        margin-top: 121.55px;
+        margin-left: 70.08px;
+    }
+    .questions-header h1{
+        font-size: 32px;
+        line-height: 32.44px;
+    }
+    .questions-content{
+        margin-top: 35px;
+        margin-left: 11px;
+    }
+    .questions-content li{
+        font-size: 14px;
+        line-height: 21px;
+    }
 }
+
+/*--------------------------------------------*/
+
