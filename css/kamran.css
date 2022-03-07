@@ -299,7 +299,6 @@
 
 @media screen and (min-width:834px) and (max-width:1279px){
     .header-logo{
-        margin: 0px;
         margin-top: 22px;
         margin-left: 70.08px;
     }
@@ -548,5 +547,204 @@
     }
 }
 
+
 /*--------------------------------------------*/
 
+
+@media screen and (min-width:320px) and (max-width:834px){
+    .header-logo{
+        margin-top: 36px;
+        margin-left: 35px;
+    }
+    .header-logo img {
+        width: 52.19px;
+        height: 30.75px;
+    }
+
+    /*-------------------------------*/
+
+    .header-content-section{
+        margin-left: 35px;
+    }
+
+
+    .header-p-extra{
+        width: 63.248vw;    /*237.18*/
+        margin-top: 40.73px;
+    }
+    .header-p-extra .globe p{
+        margin-top: 0.13px;
+        margin-left: 3.73px;
+    }
+    .header-p-extra .hour p{
+        margin-top: 0.13px;
+        margin-left: 4.66px;
+        width: 60.44px;
+    }
+    .header-p-extra .month p{
+        margin-top: 0.13px;
+        margin-left: 6.06px;
+    }
+    .header-p-extra p{
+        font-size: 10px;
+        line-height: 11.5px;
+        width: 60.58px;
+        height: 14.91px;
+    }
+    .header-p-extra .globe img{
+        width: 10.25px;
+        height: 9.79px;
+        margin-top: 0.47px;
+    }
+    .header-p-extra .hour img{
+        width: 9.32px;
+        height: 10.25px;
+        margin-left: 11.65px;
+    }
+    .header-p-extra .month img{
+        width: 9.32px;
+        height: 10.25px;
+        margin-top: 0.5px;
+    }
+
+
+
+    .header-img{
+        display: flex;
+        justify-content: end;
+    }
+    .header-img img{
+        width: 141.68px;
+        height: 175.1px;
+        margin-top: 0px;
+    }
+    .header-p h1{
+        font-size: 37px;
+        line-height: 37.51px;
+        margin-top: 8.06px;
+        width: 95.228%;
+        margin-left: 0.47px;
+    }
+    .header-p p{
+        font-size: 10px;
+        line-height: 15px;
+        width: 69.032%;
+        margin-left: 0.74px;
+    }
+
+
+    .header-author-flex{
+        display: block;
+        margin-left: 2.98px;
+        margin-top: 37.24px;
+        /**/
+    }
+    .header-author-content{
+        padding: 9.25px 7.34px 10.94px 12.02px;
+        width: 60.096vw;    /*225.36*/
+        /*205*/
+    }
+    .author-words{
+        font-size: 11px;
+        line-height: 14.3px;
+        margin-bottom: 4px;
+        width: 92.572%;
+    }
+    .author-name{
+        font-size: 10px;
+        line-height: 13px;
+    }
+    
+    
+    .header-content-div{
+        width: 82.048vw;    /*307.68*/
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    /*--------------------------------------------*/
+
+
+    .about{
+        margin-left: 35px;
+    }
+    .about .about-header-div{
+        margin-top: 174.36px;
+        width: 365px;
+        height: 93px;
+    }
+    .about-header-div h1{
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 55.76px;
+    }
+
+
+    .about-content-div{
+        margin-top: 18px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 82.777vw;    /*1192px*/
+    }
+    .about-content-p{
+        width: 55.536%;
+    }
+    .about-content-p p{
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .about-content-p p:last-child{
+        margin-top: 36px;
+    }
+    .about-content-img img{
+        width: 366px;
+        height: 344px;
+    }
+
+    .about-details-div{
+        margin-top: 71px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 69.583vw;      /*1002*/
+    }
+    .about-details-img img{
+        width: 232px;
+        height: 219px;
+    }
+    .about-details-content{
+        margin-top: 72px;
+        width: 63.672%;   /*638*/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .about-details-content div{
+        width: 150px;
+    }
+    .about-details-content h2{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .about-details-content p{
+        margin-top: 8px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+
+    /*----------------------------------------*/
+}
