@@ -12,3 +12,9 @@
     margin-right: 121px;
     margin-left: 121px;
 }
+
+@media screen and (min-width:833px) and (max-width:1280px) {
+    .margins{
+        margin-right: 70px;
+        margin-left: 70px;
+    }}

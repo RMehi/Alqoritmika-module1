@@ -287,3 +287,301 @@ footer{
     color: white;
     padding-bottom: 44px;
 }
+
+@media screen and (min-width:833px) and (max-width:1280px) {
+   
+    
+    .course-program{
+       margin-top: 147px;
+    }
+
+    .course-program-cards-flexbox{
+        margin-left:49px;
+        margin-top: 0;
+        margin-right: 27px;
+        margin-bottom: 31px;
+    }
+    
+    .course-program-header{
+        font-family: Roboto Slab;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 77px;
+    }
+
+    .course-program-cards{
+        width: 231.09px;
+        height: 189.97px;
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+        margin-right: 21.43px;
+        margin-bottom: 23.75px;
+    }
+
+    .card-image{
+        width: 231.09px;
+        height: 92.67px;      
+    }
+
+    .card-img-tablet-size{
+        width: 231.09px;
+        height: 92.67px;
+    }
+
+    .course-program-cards h3{
+        font-family: Roboto;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;   
+        margin-left: 11px;
+        margin-top: 6px;
+    }
+    .course-program-cards p{
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;       
+        margin-left: 11px;
+        margin-top: 20px; 
+    }
+    
+    .cards-text-7 h3{
+        margin-top: 8px;
+    }
+    
+    .cards-text-8 h3{
+        margin-top: 11px;
+        line-height: 16px;
+    }
+    
+    .cards-text-8 p{
+        margin-left:11px; 
+        margin-top: 7px;
+    }
+
+    .course-customer-header{
+        font-family: Roboto Slab;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;        
+    }
+
+    .course-customer-header p{
+        padding-top: 53px;
+    }
+
+    .course-customer-card{
+        width: 458.12px;
+        height: 261.2px;
+        
+        background: #FFFFFF;
+        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;        
+        margin-top: 41px;
+        margin-left: 73px;
+    }
+
+    .course-customer-card-p{
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 405.42px;      
+        padding-top: 24px;
+        padding-left: 26px;  
+    }
+
+    .course-customer-img{
+        height: 97.8791732788086px;
+        width: 110.04167175292969px;
+        border-radius: 0px;
+        margin-left:15px;
+        margin-right: 17px;
+    }
+
+    .course-customer-card-name{
+        font-family: Roboto Slab;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;        
+        margin-bottom: 11px;
+    }
+
+    .customer-social-icon{
+        width: 18.53px;
+        height: 17.95px;
+    }
+
+    .course-customer-card-img-name{
+        margin-top: 14px;
+    }
+
+    .course-customers{
+        padding-bottom: 65px;
+    }
+
+    .course-start-date h1{
+        font-family: Roboto Slab;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;   
+        padding-top: 104px;     
+    }
+
+    .course-price-rubl{
+        margin-top: 38px;
+    }
+
+    .course-price-rubl-p1{
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: left;     
+        margin-bottom: 2px;   
+    }
+
+    .course-price-rubl-p2{
+        font-family: Roboto;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 47px;
+        letter-spacing: 0em;
+        text-align: left;  
+        margin-bottom: 44px;      
+    }
+
+    .course-price-extra-p1{
+        width: 170.28px;
+        margin-right: 41px;
+    }
+
+    .course-price-extra-p2{
+        width: 170.28px;
+    }
+
+    .course-price-extra-header{
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: left;    
+        margin-bottom: 9px;    
+    }
+
+    .course-price-extra-p{
+        font-family: Roboto;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 170.28px;     
+        margin-bottom: 117px;   
+    }
+
+    .footer-logo{
+        padding-top:29px;
+        margin-bottom: 11px;
+    }
+
+    .footer-logo-img{
+        width: 66.6px;
+        height: 39.38px;
+    }
+
+    .footer-contact-info{
+        margin-top:6px;
+        margin-right: 37px;
+    }
+
+    .footer-contact-info p{
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: left;        
+    }
+
+    .footer-number{
+        margin-bottom: 10px;
+    }
+
+    .footer-phone-img{
+        width: 15.64px;
+        height: 15.64px;
+    }
+
+    .footer-mail-img{
+        height: 10.425000190734863px;
+        width: 15.637499809265137px;
+    }
+
+    .instagram-footer{
+        width: 19.11px;
+        height: 19.11px;
+    }
+
+    .facebook-footer{
+        width: 18.53px;
+        height: 18.53px;
+        margin-right: 12.2px;
+    }
+
+    .vk-footer{
+        width: 20.27px;
+        height: 20.27px;
+        margin-right: 14.48px;
+    }
+
+    .whatsapp-footer{
+        width: 19.69px;
+        height: 19.69px;
+    }
+
+    .footer-social-icon-margins{
+        margin-right: 10.43px;
+        margin-bottom: 80px;
+    }
+
+    .copyright{
+        font-family: Roboto;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-bottom: 25.38px;
+    }
+}
