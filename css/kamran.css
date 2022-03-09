@@ -682,6 +682,7 @@
 
 
     .about-content-div{
+        margin-left: 1px;
         margin-top: 8.39px;
         display: flex;
         flex-direction: column;
@@ -739,4 +740,69 @@
 
 
     /*----------------------------------------*/
+
+
+    .format{
+        margin-top: 69px;
+        margin-left: 35px;
+    }
+    .format-header-div h1{
+        margin-left: 1px;
+        font-size: 26px;
+        line-height: 26.36px;
+    }
+    .format-content{
+        margin-top: 3px;
+        width: unset;
+        flex-direction: column;
+        justify-content: unset;
+    }
+    .format-content div{
+        margin-top: 31px;
+    }
+    .format-content div:first-child{
+        width: 48vw;
+    }
+    .format-content div:nth-child(2){
+        width: 44vw;
+    }
+    .format-content div:last-child{
+        margin-left: 1px;
+        width: 41vw;
+    }
+    .format-content h2{
+        font-size: 12px;
+        line-height: 15.6px;
+    }
+    .format-content p{
+        font-size: 10px;
+        line-height: 13px;
+    
+        margin-top: 4px;
+    }
+
+
+    /*---------------------------------------------*/
+
+
+    .questions{
+        margin-left: 35px;
+        margin-top: 77px;
+    }
+    .questions-header h1{
+        margin-left: 1px;
+        font-size: 26px;
+        line-height: 26.36px;
+    }
+    .questions-content{
+        margin-top: 26px;
+        margin-left: 8.5px;
+    }
+    .questions-content ul{
+        width: 79.733vw;
+    }
+    .questions-content li{
+        font-size: 12px;
+        line-height: 18px;
+    }
 }
