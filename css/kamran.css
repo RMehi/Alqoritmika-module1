@@ -1,5 +1,6 @@
 .header-logo{
     margin-top: 21px;
+    margin-left: 121px;
 }
 .header-logo img {
     width: 112px;
@@ -8,9 +9,9 @@
 
 
 .header-content-section{
-    margin-left: 37px;
+    margin-left: 121px;
 }
-.header-img{
+.header-img img{
     width: 305px;
     height: 376px;
     margin-top: 3px;
@@ -43,7 +44,7 @@
     margin-left: 13px;
 }
 .header-p-extra p{
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 20px;
     line-height: 23px;
     width: 130px;
@@ -66,27 +67,27 @@
 
 
 .header-p h1{
-    font-family: 'Roboto Slab', serif;
+    font-family: Roboto Slab;
     font-weight: 700;
     font-size: 80px;
     line-height: 81.11px;
     margin-top: 29px;
 }
 .header-p p{
-    font-family: 'Roboto ', sans-serif;
+    font-family: Roboto;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     width: 53.976%;
     margin-left: 1px;
-    margin-top: 15px; /*?*/
+    margin-top: 15px;
 }
 
 
 .header-author-flex{
     display: flex;
     justify-content: end;
-    margin-top: 67.62px;
+    margin-top: 65.62px;
 }
 .header-author-content{
     background-color: #1E4681;
@@ -100,15 +101,15 @@
     width: 62.644%;
 }
 .author-words{
-    font-family: 'Roboto Slab', serif;
+    font-family: Roboto Slab;
     font-weight: 400;
     font-size: 25px;
     line-height: 32.5px;
     margin-bottom: 5px;
-    margin-right: 8.5px;
+    width: 98.064%;
 }
 .author-name{
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 20px;
     line-height: 26px;
     text-align: end;
@@ -124,13 +125,17 @@
 
 /*--------------------------------------------*/
 
+
+.about{
+    margin-left: 121px;
+}
 .about .about-header-div{
     margin-top: 174.36px;
     width: 365px;
     height: 93px;
 }
 .about-header-div h1{
-    font-family: 'Roboto Slab', serif;
+    font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
@@ -150,7 +155,7 @@
     width: 55.536%;
 }
 .about-content-p p{
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
@@ -185,7 +190,7 @@
     width: 150px;
 }
 .about-details-content h2{
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
@@ -193,7 +198,7 @@
 }
 .about-details-content p{
     margin-top: 8px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -205,10 +210,11 @@
 
 
 .format{
-    margin-top: 160px;
+    margin-top: 158px;
+    margin-left: 121px;
 }
 .format-header-div h1{
-    font-family: 'Roboto Slab', serif;
+    font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
@@ -258,7 +264,8 @@
 
 
 .questions{
-    margin-top: 216px;
+    margin-left: 121px;
+    margin-top: 218px;
 }
 .questions-header h1{
     font-family: Roboto Slab;
@@ -277,11 +284,459 @@
     width: 45.138vw;    /*650*/
 }
 .questions-content li{
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0em;
     text-align: left;
+}
+
+
+/*-------------------------------------------*/
+
+
+@media screen and (min-width:833px) and (max-width:1279px){
+    .header-logo{
+        margin-top: 22px;
+        margin-left: 70.08px;
+    }
+    .header-logo img {
+        width: 64.87px;
+        height: 38.23px;
+    }
+
+    /*-------------------------------*/
+
+    .header-content-section{
+        margin: 0px;
+        margin-left: 70.08px;
+    }
+    .header-img img{
+        width: 176.65px;
+        height: 217.77px;
+        margin-top: 1px;      /********************************************/
+    }
+
+
+    .header-p-extra{
+        width: 35.3465vw;    /*294.79*/
+        margin-top: 52px;
+    }
+    .header-p-extra p{
+        font-family: Roboto;
+        font-size: 12px;
+        line-height: 13.8px;
+        width: 75.29px;
+        height: 18.53px;
+    }
+    .header-p-extra .globe p{
+        margin-top: 2.74px;
+        margin-left: 4.63px;
+    }
+    .header-p-extra .hour p{
+        margin-top: 3.17px;
+        margin-left: 6.03px;
+        width: 74.29px;
+    }
+    .header-p-extra .month p{
+        margin-top: 2.32px;
+        margin-left: 7.53px;
+    }
+    .header-p-extra .globe img{
+        width: 12.74px;
+        height: 12.16px;
+        margin-top: 0.58px;
+    }
+    .header-p-extra .hour img{
+        width: 12.74px;
+        height: 12.74px;
+        margin-left: 14.48px;
+    }
+    .header-p-extra .month img{
+        width: 11.58px;
+        height: 12.74px;
+    }
+
+
+    .header-p h1{
+        font-family: Roboto Slab;
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 46.64px;
+        margin-top: 6.32px;
+    }
+    .header-p p{
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        width: 57.043%;
+        margin-left: 1px;
+        margin-top: 20px;
+        font-style: normal;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .header-content-div{
+        grid-template-columns: 53.401vw auto;
+        grid-template-rows: auto auto;
+    }
+
+
+    .header-author-flex{
+        display: flex;
+        justify-content: end;
+        margin-top: 36.17px;
+    }
+    .header-author-content{
+        padding-left: 15.08px;
+        padding-right: 9.21px;
+        padding-top: 11.15px;
+        padding-bottom: 13.54px;
+        width: 62.644%;
+    }
+    .author-words{
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        margin-bottom: 2px;
+        width: 95.246%;
+    }
+    .author-name{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    
+    
+    .header-content-div{
+        display: grid;
+        grid-template-columns: 53.6vw auto;
+        grid-template-rows: auto auto;
+    }
+
+
+    /*--------------------------------------------*/
+
+
+    .about{
+        margin-left: 70.08px;
+    }
+    .about .about-header-div{
+        margin-top: 101.41px;
+        width: 211.4px;
+        height: 53.86px;
+    }
+    .about-header-div h1{
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 32.44px;
+    }
+    
+    
+    .about-content-div{
+        margin-top: 10.42px;
+        width: 82.778vw;    /*690.37px*/
+    }
+    .about-content-p{
+        width: 55.536%;
+    }
+    .about-content-p p{
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .about-content-p p:last-child{
+        margin-top: 20px;
+    }
+    .about-content-img img{
+        width: 211.98px;
+        height: 199.23px;
+    }
+    
+    .about-details-div{
+        margin-top: 40.51px;
+    }
+    .about-details-img img{
+        width: 134.37px;
+        height: 126.84px;
+    }
+    .about-details-content{
+        margin-top: 41.54px;
+    }
+    .about-details-content div{
+        width: 86.88px;
+    }
+    .about-details-content div:nth-child(2){
+        width: 96px;
+        padding-left: 9px;
+    }
+    .about-details-content h2{
+        font-size: 15px;
+        line-height: 19.5px;
+    }
+    .about-details-content p{
+        margin-top: 4px;
+        font-size: 11px;
+        line-height: 14.3px;
+    }
+    
+    
+    /*----------------------------------------*/
+
+
+    .format{
+        margin-top: 89.83px;
+        margin-left: 70.08px;
+    }
+    .format-header-div h1{
+        font-size: 32px;
+        line-height: 32.44px;
+    }
+    .format-content{
+        margin-top: 74px;
+        width: 67.598vw;    /*563.7*/
+    }
+    .format-content div:first-child{
+        width: 25.2%;     /*146*/
+    }
+    .format-content div:nth-child(2){
+        width: 30.512%;    /*172*/
+        padding-left: 10px;
+    }
+    .format-content div:last-child{
+        width: 25.172%;    /*141.9*/
+    }
+    .format-content h2{
+        font-size: 15px;
+        line-height: 19.5px;
+    }
+    .format-content p{
+        font-size: 11px;
+        line-height: 14.3px;
+    
+        margin-top: 4px;
+    }
+
+
+    /*-------------------------------------------*/
+
+
+    .questions{
+        margin-top: 121.55px;
+        margin-left: 70.08px;
+    }
+    .questions-header h1{
+        font-size: 32px;
+        line-height: 32.44px;
+    }
+    .questions-content{
+        margin-top: 35px;
+        margin-left: 11px;
+    }
+    .questions-content li{
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+
+
+/*--------------------------------------------*/
+
+
+@media screen and (min-width:320px) and (max-width:833px){
+    .header-logo{
+        margin-top: 36px;
+        margin-left: 35px;
+    }
+    .header-logo img {
+        width: 52.19px;
+        height: 30.75px;
+    }
+
+    /*-------------------------------*/
+
+    .header-content-section{
+        margin-left: 35px;
+    }
+
+
+    .header-p-extra{
+        width: 63.248vw;    /*237.18*/
+        margin-top: 40.73px;
+    }
+    .header-p-extra .globe p{
+        margin-top: 0.13px;
+        margin-left: 3.73px;
+    }
+    .header-p-extra .hour p{
+        margin-top: 0.13px;
+        margin-left: 4.66px;
+        width: 60.44px;
+    }
+    .header-p-extra .month p{
+        margin-top: 0.13px;
+        margin-left: 6.06px;
+    }
+    .header-p-extra p{
+        font-size: 10px;
+        line-height: 11.5px;
+        width: 60.58px;
+        height: 14.91px;
+    }
+    .header-p-extra .globe img{
+        width: 10.25px;
+        height: 9.79px;
+        margin-top: 0.47px;
+    }
+    .header-p-extra .hour img{
+        width: 9.32px;
+        height: 10.25px;
+        margin-left: 11.65px;
+    }
+    .header-p-extra .month img{
+        width: 9.32px;
+        height: 10.25px;
+        margin-top: 0.5px;
+    }
+
+
+
+    .header-img{
+        display: flex;
+        justify-content: end;
+    }
+    .header-img img{
+        width: 141.68px;
+        height: 175.1px;
+        margin-top: 0px;
+    }
+    .header-p h1{
+        font-size: 37px;
+        line-height: 37.51px;
+        margin-top: 8.06px;
+        width: 95.228%;
+        margin-left: 0.47px;
+    }
+    .header-p p{
+        font-size: 10px;
+        line-height: 15px;
+        width: 69.032%;
+        margin-left: 0.74px;
+    }
+
+
+    .header-author-flex{
+        display: block;
+        margin-left: 2.98px;
+        margin-top: 37.24px;
+        /**/
+    }
+    .header-author-content{
+        padding: 9.25px 7.34px 10.94px 12.02px;
+        width: 60.096vw;    /*225.36*/
+        /*205*/
+    }
+    .author-words{
+        font-size: 11px;
+        line-height: 14.3px;
+        margin-bottom: 4px;
+        width: 92.572%;
+    }
+    .author-name{
+        font-size: 10px;
+        line-height: 13px;
+    }
+    
+    
+    .header-content-div{
+        width: 82.048vw;    /*307.68*/
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    /*--------------------------------------------*/
+
+
+    .about{
+        margin-left: 35px;
+    }
+    .about .about-header-div{
+        margin-top: 75.06px;
+        margin-left: 1px;
+        width: 170.08px;
+        height: 43.34px;
+    }
+    .about-header-div h1{
+        font-size: 26px;
+        line-height: 26.36px;
+    }
+
+
+    .about-content-div{
+        margin-top: 8.39px;
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        align-items: center; /**/
+        width: 82.258vw;
+    }
+    .about-content-p{
+        width: 100%;
+    }
+    .about-content-p p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .about-content-p p:last-child{
+        margin-top: 18px;
+    }
+    .about-content-img img{
+        padding-right: 5px;
+        margin-top: 15px;
+        width: 170.55px;
+        height: 160.29px;
+    }
+
+    .about-details-div{
+        margin-top: 14.71px;
+        display: block;
+        width: 82.258vw;    /**/
+    }
+    .about-details-img img{
+        display: none;
+    }
+    .about-details-content{
+        margin-top: 0px;
+        width: 100%;   /*638*/
+        display: flex;
+        flex-direction: row;
+        justify-content: unset;   /**********/
+        flex-wrap: wrap;
+    }
+    .about-details-content div{
+        margin-top: 27px;
+        width: 85px;
+        margin-right: 8.966vw;
+    }
+    .about-details-content h2{
+        font-size: 12px;
+        line-height: 15.6px;
+    }
+    .about-details-content p{
+        margin-top: 2px;
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+
+    /*----------------------------------------*/
 }
