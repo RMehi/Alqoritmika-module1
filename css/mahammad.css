@@ -849,7 +849,7 @@ footer{
 @media screen and (min-width:500px) and (max-width:833px) {
     .course-program-cards h3{
         font-family: Roboto;
-        font-size: 14px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 700;
         line-height: 18px;
@@ -857,5 +857,18 @@ footer{
         text-align: left;        
         margin-left:20px; 
         margin-top: 10%;
+    }
+
+    .course-program-cards p{
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;        
+        margin-left:19px; 
+        margin-top:15px; 
+        padding-bottom: 20px;
     }
 }
