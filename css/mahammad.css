@@ -82,12 +82,8 @@
     padding-bottom: 20px;
 }
 
-.cards-text-7 h3{
-    margin-top: 15px;
-}
-
 .cards-text-8 h3{
-    margin-top: 20px;
+    margin-top: 5%;
     line-height: 30px;
 }
 
@@ -363,11 +359,11 @@ footer{
     }
     
     .cards-text-7 h3{
-        margin-top: 8px;
+        margin-top: 5%;
     }
     
     .cards-text-8 h3{
-        margin-top: 11px;
+        margin-top: 5%;
         line-height: 16px;
     }
     
