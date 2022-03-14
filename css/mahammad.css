@@ -228,12 +228,12 @@ footer{
     display: flex;
     justify-content: space-between;
     padding-top:50px;
-    margin-bottom: 21px;
 }
 
 .footer-logo-img{
     width: 115px;
     height: 68px;
+    margin-bottom: 21px;
 }
 
 .footer-contact-info{
